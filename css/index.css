@@ -134,6 +134,28 @@ h2{
   cursor: pointer;
   font-size: 3rem;
 }
-/* .categories-boxes img{
-  display: none;
-} */
+
+
+  /*CSS for foods menu*/
+  .menu{
+    background-color: #ececec;
+    padding: 4% ;
+  }
+  .food-menu-box{
+  border: 1px solid black;
+  width: 43%;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+  background-color: white;
+  
+}
+.food-menu-img{
+  float: left;
+  background-color: green;
+  width: 40%;
+}
+.food-menu-description{
+  background-color: blue;
+  height:120px;
+}
