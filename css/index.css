@@ -26,6 +26,9 @@ body{
 .text-right{
   text-align: right;
 }
+.text-center{
+  text-align: center;
+}
 .clear-fix{
   clear: both;
   float: none;
@@ -35,14 +38,28 @@ a{
   text-decoration: none;
 }
 a:hover{
-  color: #a85939;
+  color: #e05b26b0;
+}
+.btn{
+  padding: 1%;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.btn-primary{
+  background-color: #b71540;
+  color: white;
+  cursor: pointer;
+}
+.btn-primary:hover{
+  background-color: #e05b26;
 }
 
 /*CSS for navbar section*/
 
 .logo{
   /* border: 1px solid black; */
-  width: 15%;
+  width: 10%;
   float: left;
 }
 .img-responsive{
@@ -58,4 +75,24 @@ a:hover{
   display: inline;
   padding: 1%;
   font-weight: bold;
+}
+
+/*CSS for food search section*/
+
+.food-search{
+  background-image: url(../images/search-background-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 6% 0;
+}
+.food-search input[type="search"]{
+  width: 50%;
+  padding: 1%;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+.btn{
+
 }
