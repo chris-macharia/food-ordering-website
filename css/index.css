@@ -4,7 +4,9 @@ Themes: illusion foods
 version: 1.0
 */
 
-*{    /*this block will give a default value to the attributes we set here*/
+/*CSS for all*/
+
+*{    
   margin: 0 0;
   padding: 0 0;
   font-family:Arial, Helvetica, sans-serif ;
@@ -18,3 +20,42 @@ body{
   margin: 0 auto ;
   padding: 1% ;
 } 
+.img-responsive{
+  width: 100%;
+}
+.text-right{
+  text-align: right;
+}
+.clear-fix{
+  clear: both;
+  float: none;
+}
+a{
+  color: #b71540;
+  text-decoration: none;
+}
+a:hover{
+  color: #a85939;
+}
+
+/*CSS for navbar section*/
+
+.logo{
+  /* border: 1px solid black; */
+  width: 15%;
+  float: left;
+}
+.img-responsive{
+  width: 100%;
+}
+.menu{
+  line-height: 120px;
+}
+.menu > ul{
+  list-style-type: none;
+}
+.menu > ul > li{
+  display: inline;
+  padding: 1%;
+  font-weight: bold;
+}
