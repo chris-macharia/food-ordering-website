@@ -148,27 +148,30 @@ h2{
   padding: 2% 2%;
   float: left;
   background-color: white;
-  
+  border-radius: 15px;
 }
 .card{
   margin: none;
   width: 100%;
 }
 .card img{
-  width: 100%;
-  margin: none;
+  width: 50%;
+  margin: 1%;
   line-height: 50px;
+  float: left;
 }
 .card h4{
   margin: none;
+  margin-top: 30px;
   margin-bottom: 10px;
   line-height: 30px;
   font-size: 3rem;
   text-align: center;
 }
-.card p{
+.card p{ 
   margin: none;
   line-height: 1.5;
+  color: #6e7375;
 }
 .card button{
   text-align: center;
@@ -176,4 +179,4 @@ h2{
   height: 40px;
   margin: 0 20%;
   color:  white;
-}
+}  
