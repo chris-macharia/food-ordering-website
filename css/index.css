@@ -139,23 +139,41 @@ h2{
   /*CSS for foods menu*/
   .menu{
     background-color: #ececec;
-    padding: 4% ;
+    padding: 3% ;
   }
   .food-menu-box{
   border: 1px solid black;
   width: 43%;
   margin: 1%;
-  padding: 2%;
+  padding: 2% 2%;
   float: left;
   background-color: white;
   
 }
-.food-menu-img{
-  float: left;
-  background-color: green;
-  width: 40%;
+.card{
+  margin: none;
+  width: 100%;
 }
-.food-menu-description{
-  background-color: blue;
-  height:120px;
+.card img{
+  width: 100%;
+  margin: none;
+  line-height: 50px;
+}
+.card h4{
+  margin: none;
+  margin-bottom: 10px;
+  line-height: 30px;
+  font-size: 3rem;
+  text-align: center;
+}
+.card p{
+  margin: none;
+  line-height: 1.5;
+}
+.card button{
+  text-align: center;
+  width: 50%;
+  height: 40px;
+  margin: 0 20%;
+  color:  white;
 }
