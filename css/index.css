@@ -180,3 +180,12 @@ h2{
   margin: 0 20%;
   color:  white;
 }  
+
+/*CSS for social-media section*/
+.social-media ul{
+  list-style-type: none;
+}
+.social-media ul li{
+  display: inline;
+  padding: 1%;
+}
