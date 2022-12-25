@@ -189,3 +189,53 @@ h2{
   display: inline;
   padding: 1%;
 }
+
+/*CSS for mobile size or smaller screens */
+@media only screen and (max-width: 760px){
+  .navbar{
+    height: 140px;
+  }
+  .logo{
+    width: 25%;
+  }
+  .food-search input[type="search"]{
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 2%;
+  }
+  .btn{
+    width: 60%;
+    padding: 2%;
+  }
+  .food-search{
+    margin: 4%;
+  }
+  .categories{
+    padding: 10% 0;
+  }
+  .h2{
+    margin-bottom: 5% auto;
+  }
+  .categories-boxes{
+    width: 97%;
+    margin: 4% auto;
+  }
+  .menu{
+    padding: 20% 0;
+  }
+  .food-menu-box{
+    width: 90%;
+    padding: 10%;
+    margin: 10px 5px;
+  }
+  .card{
+    margin: 10% ;
+  }
+  .card img{
+    width: 90%;
+    margin-bottom: 25px;
+  }
+  .social-media{
+    padding: 5%;
+  }
+}
